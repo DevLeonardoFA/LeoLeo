@@ -17,7 +17,7 @@ ReactDOM.render(
       <Switch>
         <Route path="/" component={Home} exact/>
         <Route path="/cadastro/video" component={CadVideo} />
-        <Route path="/cadastro/categria" component={CadCategoria} />
+        <Route path="/cadastro/categoria" component={CadCategoria} />
         <Route component={Erro} />
       </Switch>
     </BrowserRouter>
