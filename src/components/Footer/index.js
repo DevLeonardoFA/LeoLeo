@@ -5,15 +5,11 @@ import Logo from '../../assets/img/Logo.png';
 function Footer() {
   return (
     <FooterBase>
-      <a>
+      <a href="/">
         <img src={Logo} alt="LeoLeo Logo"/>
       </a>
       <p>
-        Orgulhosamente criado durante a
-        {' '}
-        <a href="https://www.alura.com.br/">
-          Imersão React da Alura
-        </a>
+      Orgulhosamente criado durante a Imersão React da Alura
       </p>
     </FooterBase>
   );
